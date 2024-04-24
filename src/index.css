@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: nohemiBlack;
+  src: url(/assets/fonts/Nohemi-Black.ttf);
+}
+
+@font-face {
+  font-family: nohemiExtraBold;
+  src: url(/assets/fonts/Nohemi-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: nohemiBold;
+  src: url(/assets/fonts/Nohemi-Bold.ttf);
+}
+
+@font-face {
+  font-family: nohemiSemiBold;
+  src: url(/assets/fonts/Nohemi-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: nohemiMedium;
+  src: url(/assets/fonts/Nohemi-Medium.ttf);
+}
+
+@font-face {
+  font-family: nohemiRegular;
+  src: url(/assets/fonts/Nohemi-Regular.ttf);
+}
+
+@font-face {
+  font-family: nohemiLight;
+  src: url(/assets/fonts/Nohemi-Light.ttf);
+}
+
+@font-face {
+  font-family: nohemiExtraLight;
+  src: url(/assets/fonts/Nohemi-ExtraLight.ttf);
+}
+
+@font-face {
+  font-family: nohemiThin;
+  src: url(/assets/fonts/Nohemi-Thin.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100dvw;
+  height: 100%;
+  overflow-x: hidden;
+  color: white;
+  background-color: black;
+  user-select: none;
+}
+
+.opaqueBackground {
+  background-color: rgba(64, 64, 64, 0.4);
+}
+
+section {
+  height: 100vh;
+  overflow-x: hidden;
+}
