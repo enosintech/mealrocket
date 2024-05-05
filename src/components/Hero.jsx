@@ -13,9 +13,10 @@ const Hero = () => {
       ease: "power1",
       stagger: 1
     }, {
-      trigger: "#wordTrigger",
-      start: "top 70%",
-      end: "top 40%",
+      trigger: "#navBar",
+      start: "top top",
+      endTrigger: "#highlights",
+      end: "top 65%",
       scrub: true,
     })
 
@@ -43,7 +44,7 @@ const Hero = () => {
             <span className='opacity-[0.06] worder font-nohemiThin'>THE</span>
             <span className='opacity-[0.04] worder font-nohemiExtraLight'>WORLD'S</span>
             <span className='opacity-[0.02] worder font-nohemiBold'>BEST</span>
-            <span className='text-red-900 font-nohemiExtraBold'>SHARWAMAS.</span>
+            <span className='text-red-900 font-nohemiExtraBold'>SHARWAMA</span>
           </p>
           <div className='w-full py-1 px-4 font-nohemiSemiBold flex items-center justify-center'>
             <p>VISIT US AT LEVY MALL</p>

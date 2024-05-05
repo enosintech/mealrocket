@@ -1,4 +1,4 @@
-import { highlightsFirstVid, highlightsFourthVid, highlightsSecondVid, highlightsThirdVid } from "../lib";
+import { highlightsFirstVid, highlightsFourthVid, highlightsSecondVid, highlightsThirdVid, napsaImage } from "../lib";
 
 export const highlightSlides = [
     {
@@ -40,5 +40,38 @@ export const highlightSlides = [
         price: "ZMW 20 - ZMW 70",
         video: highlightsFourthVid,
         videoDuration: 14,
+    },
+]
+
+export const workedWith = [
+    {
+        id: 1,
+        logo: napsaImage,
+        name: "NAPSA",
+    },
+    {
+        id: 1,
+        logo: napsaImage,
+        name: "NAPSA",
+    },
+    {
+        id: 1,
+        logo: napsaImage,
+        name: "NAPSA",
+    },
+    {
+        id: 1,
+        logo: napsaImage,
+        name: "NAPSA",
+    },
+    {
+        id: 1,
+        logo: napsaImage,
+        name: "NAPSA",
+    },
+    {
+        id: 1,
+        logo: napsaImage,
+        name: "NAPSA",
     },
 ]

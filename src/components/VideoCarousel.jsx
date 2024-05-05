@@ -89,7 +89,7 @@ const VideoCarousel = () => {
             })
 
             noTriggerToAnimations(span[videoId], {
-              backgroundColor: "#afafaf",
+              backgroundColor: "#374151",
             })
           }
         }
@@ -100,7 +100,7 @@ const VideoCarousel = () => {
       }
 
       const animUpdate = () => {
-        anim.progress(videoRef.current[videoId].currentTime / highlightSlides[videoId].videoDuration)
+        anim.progress(videoRef.current[videoId].currentTime / highlightSlides[videoId].videoDuration);
       }
 
       if(isPlaying){
@@ -132,7 +132,7 @@ const VideoCarousel = () => {
       default: 
         return video;      
     }
-  }
+  };
 
   const handleLoadedMetadata = (i, e) => setLoadedData((pre) => [...pre, e]);
 
@@ -174,13 +174,13 @@ const VideoCarousel = () => {
       <div className="relative flex items-center mt-5">
         <div className="flex items-center justify-center backdrop-blur">
           {videoRef.current?.map((_, index) => (
-            <span key={index} ref={(el) => (videoDivRef.current[index] = el)} className="mx-2 w-4 h-4 bg-gray-400 rounded-full overflow-hidden relative">
+            <span key={index} ref={(el) => (videoDivRef.current[index] = el)} className="mx-2 w-4 h-4 bg-gray-700 rounded-full overflow-hidden relative">
               <span className="absolute h-full w-full rounded-full" ref={(el) => (videoSpanRef.current[index] = el)} />
             </span>
           ))}
         </div>
 
-        <button className="ml-4 w-14 h-14 rounded-full bg-gray-400 backdrop-blur flex items-center justify-center hover:opacity-80 active:opacity-50" onClick={isLastVideo ? () => handleProcess('video-reset') : !isPlaying ? () => handleProcess("play") : () => handleProcess("pause")}>
+        <button className="ml-4 w-14 h-14 rounded-full bg-gray-700 backdrop-blur flex items-center justify-center hover:opacity-80 active:opacity-50" onClick={isLastVideo ? () => handleProcess('video-reset') : !isPlaying ? () => handleProcess("play") : () => handleProcess("pause")}>
             <FontAwesomeIcon icon={isLastVideo ? faRepeat : isPlaying ? faPause : faPlay } size="lg" color="white"/>
         </button>
       </div>

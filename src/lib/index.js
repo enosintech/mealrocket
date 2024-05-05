@@ -8,6 +8,7 @@ import landingPage2 from "/assets/images/landingPage2.webp";
 import landingPage3 from "/assets/images/landingPage3.webp";
 import landingPage4 from "/assets/images/landingPage4.webp";
 import spinningPlatter from "/assets/images/spinningPlatter.webp";
+import napsa from "/assets/images/napsa.webp";
 
 import highlightsFirst from "/assets/videos/highlight-first.mp4";
 import highlightsSecond from "/assets/videos/hightlight-sec.mp4";
@@ -25,6 +26,7 @@ export const landingPageImage2 = landingPage2;
 export const landingPageImage3 = landingPage3;
 export const landingPageImage4 = landingPage4;
 export const spinningPlatterImage = spinningPlatter;
+export const napsaImage = napsa;
 
 export const highlightsFirstVid = highlightsFirst;
 export const highlightsSecondVid = highlightsSecond;

@@ -43,8 +43,13 @@ const Landing = () => {
             <img className="w-full h-full object-cover absolute motiv" alt="landing Page Image 1" src={landingPageImage1} />
             <div className="w-full h-full absolute top-0 left-0 z-10 bg-gradient-to-b from-transparent via-transparent to-[70%] to-black"></div>
             <div className="absolute bottom-0 z-20 flex flex-col items-center gap-y-5 left-0 right-0 mx-auto">
-                <div className="bg-red-900 hover:opacity-70 active:opacity-50 cursor-pointer p-5 rounded-full">
-                    <p className="font-nohemiBold text-xl">ORDER FOOD</p>
+                <div className="flex items-center justify-center gap-x-5">
+                    <div className="bg-red-900 hover:opacity-70 active:opacity-50 cursor-pointer p-5 rounded-full">
+                        <p className="font-nohemiBold text-xl">ORDER FOOD</p>
+                    </div>
+                    <div className="bg-white hover:opacity-70 active:opacity-50 cursor-pointer p-5 rounded-full">
+                        <p className="font-nohemiBold text-xl text-black">RESERVE TABLE</p>
+                    </div>
                 </div>
                 <h1 className="w-fit text-[150px] font-nohemiBlack">MEALROCKET</h1>
                 <p className="text-xl font-nohemiMedium -translate-y-10">ESTABLISHED 2021</p>
