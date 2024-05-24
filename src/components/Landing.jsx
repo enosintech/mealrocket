@@ -8,7 +8,7 @@ const Landing = () => {
 
     useGSAP(() => {
         const imgs = gsap.utils.toArray(".motiv");
-        const next = 1;
+        const next = 0;
         const fade = 1;
         
         gsap.set(imgs[0], {autoAlpha: 1})
@@ -20,7 +20,7 @@ const Landing = () => {
 
             imgs.push(imgs.shift())
 
-            gsap.delayedCall(next, crossFade);
+            gsap.delayedCall(2, crossFade);
         }
 
         gsap.delayedCall(next, crossFade);

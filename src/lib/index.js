@@ -9,6 +9,9 @@ import landingPage3 from "/assets/images/landingPage3.webp";
 import landingPage4 from "/assets/images/landingPage4.webp";
 import spinningPlatter from "/assets/images/spinningPlatter.webp";
 import napsa from "/assets/images/napsa.webp";
+import dummyMap from "/assets/images/dummyMap.png";
+import levy from "/assets/images/levy.jpeg";
+import shop1 from "/assets/images/shop1.jpg";
 
 import highlightsFirst from "/assets/videos/highlight-first.mp4";
 import highlightsSecond from "/assets/videos/hightlight-sec.mp4";
@@ -27,6 +30,9 @@ export const landingPageImage3 = landingPage3;
 export const landingPageImage4 = landingPage4;
 export const spinningPlatterImage = spinningPlatter;
 export const napsaImage = napsa;
+export const dummyMapImage = dummyMap;
+export const levyImage = levy;
+export const shop1Image = shop1;
 
 export const highlightsFirstVid = highlightsFirst;
 export const highlightsSecondVid = highlightsSecond;
